@@ -147,12 +147,12 @@ public class VehicleMain {
         // accepts input on Car colour
         System.out.println("Enter the colour you wish your car to be: ");
         String colourChoice2 = userInput.nextLine();
-        automobile2.setColour(colourChoice);
+        automobile2.setColour(colourChoice2);
   
         // accepts input on Plate numbers
         System.out.println("Enter the license plate number of your car: ");
         String plateNum2 = userInput.nextLine();
-        automobile2.setPlate(plateNum);
+        automobile2.setPlate(plateNum2);
   
         // initiates car loop
         while (true) {
